@@ -27,6 +27,6 @@ public class DataProviderEx1 {
 		
 		return objArr;
 
-		// pull back update 3
+		// pull back update
 	}	
 }
