@@ -37,7 +37,7 @@ import objectRepository.VtigerLoginPage;
 @Listeners(Generric_Utilities.ListenerImplementation.class)
 public class Create_CampaignTest extends BaseClass{
 	
-	//push back 1
+	//push back 1 update
 	
 //	@Test(groups="smokeTest")
 	@Test(retryAnalyzer = Generric_Utilities.RetryImplementation.class)
@@ -77,45 +77,6 @@ public class Create_CampaignTest extends BaseClass{
 //	 	soft.assertEquals(actData, campaignData);
 //	 	soft.assertAll();
 	 	
-	 	
-  //  	Assert.fail();
-    	
-	 	campPage.clickOnSaveButton();
-	 	Thread.sleep(2000);
-	 	
-//	    ValidationAndVerification campValidation = new ValidationAndVerification(driver);
-//	    campValidation.campData(driver, campaignData);
-	
-//	 	String actData = driver.findElement(By.xpath("//span[@id=\"dtlview_Campaign Name\"]")).getText();
-	 	
-	 	
-//	 	Assert.assertEquals(actData, campaignData);
-//	 	Assert.assertTrue(actData.contains(campaignData));
-//	 	Assert.assertTrue(actData.contains(campaignData),campaignData+"campaign name is not verified");
-	 	
-//	 	SoftAssert soft = new SoftAssert();
-//	 	soft.assertEquals(actData, campaignData);
-//	 	soft.assertAll();
-	 	
-	 	
-  //  	Assert.fail();
-    	
-	 	campPage.clickOnSaveButton();
-	 	Thread.sleep(2000);
-	 	
-//	    ValidationAndVerification campValidation = new ValidationAndVerification(driver);
-//	    campValidation.campData(driver, campaignData);
-	
-//	 	String actData = driver.findElement(By.xpath("//span[@id=\"dtlview_Campaign Name\"]")).getText();
-	 	
-	 	
-//	 	Assert.assertEquals(actData, campaignData);
-//	 	Assert.assertTrue(actData.contains(campaignData));
-//	 	Assert.assertTrue(actData.contains(campaignData),campaignData+"campaign name is not verified");
-	 	
-//	 	SoftAssert soft = new SoftAssert();
-//	 	soft.assertEquals(actData, campaignData);
-//	 	soft.assertAll();
-	 	
+
   }
 }
